@@ -1,5 +1,6 @@
 package com.yuxiao.taotao.controller;
 
+import com.yuxiao.taotao.pojo.EUDataGridResult;
 import com.yuxiao.taotao.pojo.TbItem;
 import com.yuxiao.taotao.pojo.TbItemExample;
 import com.yuxiao.taotao.service.ItemService;
@@ -32,5 +33,11 @@ public class ItemController {
         TbItem tbItem = itemService.getItemById(itemId);
         System.out.println( tbItem );
         return tbItem;
+    }
+    @RequestMapping("/pagelist")
+    @ResponseBody
+    public EUDataGridResult getItemList(Integer page, Integer rows) {
+        EUDataGridResult result = itemService.getItemList(page, rows);
+        return result;
     }
 }

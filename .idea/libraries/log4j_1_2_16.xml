@@ -1,12 +1,6 @@
 <component name="libraryTable">
   <library name="log4j-1.2.16">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/manager/controller/src/main/webapp/WEB-INF/lib/log4j-1.2.16.jar!/" />
-      <root url="jar://$PROJECT_DIR$/manager/controller/src/main/webapp/WEB-INF/lib/mybatis-3.2.3.jar!/" />
-      <root url="jar://$PROJECT_DIR$/manager/controller/src/main/webapp/WEB-INF/lib/mybatis-generator-core-1.3.2.jar!/" />
-      <root url="jar://$PROJECT_DIR$/manager/controller/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.28-bin.jar!/" />
-      <root url="jar://$PROJECT_DIR$/manager/controller/src/main/webapp/WEB-INF/lib/ojdbc14.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

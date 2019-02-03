@@ -9,8 +9,10 @@
         <module name="common" />
         <module name="controller" />
         <module name="dao" />
+        <module name="pagehelperfix" />
         <module name="pojo" />
         <module name="service" />
+        <module name="util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -18,9 +20,11 @@
       <module name="controller" target="1.7" />
       <module name="dao" target="1.7" />
       <module name="manager" target="1.7" />
+      <module name="pagehelperfix" target="1.7" />
       <module name="pojo" target="1.7" />
       <module name="service" target="1.7" />
       <module name="taotao-parent" target="1.7" />
+      <module name="util" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

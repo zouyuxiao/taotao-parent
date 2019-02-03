@@ -5,8 +5,8 @@
 <configuration>
 
     <!--配置分页插件-->
-<!--    <plugins>
-        <plugin interceptor="com.github.pagehelper.PageHelper">
+ <!--   <plugins>
+        <plugin interceptor="com.t">
             &lt;!&ndash;指定使用的数据库&ndash;&gt;
             <property name="dialect" value="mysql"/>
         </plugin>

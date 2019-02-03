@@ -9,7 +9,6 @@
     http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-4.0.xsd">
 
     <context:component-scan base-package="com.yuxiao.taotao.dao" />
-
     <!-- 数据库连接池 -->
     <!-- 加载配置文件 -->
     <context:property-placeholder location="classpath:properties/*.properties" />
@@ -29,8 +28,8 @@
         <property name="dataSource" ref="dataSource" />
         <!-- 加载mybatis的全局配置文件 -->
         <property name="mapperLocations" value="classpath:mapper/*.xml"/>
-        <!--<property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />-->
-        <property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml"/>
+        <property name="configLocation" value="classpath:mybatis/SqlMapConfig.xml" />
+        <!--<property name="configLocation" value="classpath:spring/config.xml"/>-->
     </bean>
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.yuxiao.taotao.dao" />

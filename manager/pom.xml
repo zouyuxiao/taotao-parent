@@ -18,6 +18,7 @@
         <module>pojo</module>
         <module>dao</module>
         <module>service</module>
+        <module>util</module>
     </modules>
     <!-- 依赖管理 -->
     <dependencies>

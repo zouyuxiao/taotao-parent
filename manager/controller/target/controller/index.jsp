@@ -13,5 +13,7 @@
 <body>
     <h1>欢迎来到淘淘</h1>
     <a href="/api/item/list">项目测试</a>
+    <a href="/api/main/backstage/index">后台管理</a>
+    <a href="/api/main/backstage/index">后台管理</a>
 </body>
 </html>

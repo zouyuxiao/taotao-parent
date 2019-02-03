@@ -6,9 +6,11 @@
       <module fileurl="file://$PROJECT_DIR$/manager/controller/controller.iml" filepath="$PROJECT_DIR$/manager/controller/controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/dao/dao.iml" filepath="$PROJECT_DIR$/manager/dao/dao.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/manager.iml" filepath="$PROJECT_DIR$/manager/manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pagehelperfix/pagehelperfix.iml" filepath="$PROJECT_DIR$/pagehelperfix/pagehelperfix.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/pojo/pojo.iml" filepath="$PROJECT_DIR$/manager/pojo/pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/manager/service/service.iml" filepath="$PROJECT_DIR$/manager/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/taotao-parent.iml" filepath="$PROJECT_DIR$/taotao-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/manager/util/util.iml" filepath="$PROJECT_DIR$/manager/util/util.iml" />
     </modules>
   </component>
 </project>

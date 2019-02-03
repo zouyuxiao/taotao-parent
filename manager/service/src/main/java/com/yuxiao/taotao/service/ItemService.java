@@ -1,6 +1,7 @@
 package com.yuxiao.taotao.service;
 
 
+import com.yuxiao.taotao.pojo.EUDataGridResult;
 import com.yuxiao.taotao.pojo.TbItem;
 import com.yuxiao.taotao.pojo.TbItemExample;
 
@@ -13,4 +14,6 @@ import java.util.List;
 public interface ItemService {
     List<TbItem> list(TbItemExample example);
     TbItem getItemById(long itemId);
+
+    EUDataGridResult getItemList(int page, int rows);
 }
